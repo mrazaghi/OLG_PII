@@ -62,7 +62,7 @@ The paper is organized as follows: Operational principle of all-optical TDM usin
 Fig.\ref{fig1_flower} shows a four-petal flower-like structure in GaAs-AlGaAs material system. The central MRR (3$^{rd}$ MRR) has never been pumped by any OPP. The MRR$_1$, MRR$_2$, MRR$_4$ and MRR$_5$ are pumps by \textit{OPP A}, \textit{OPP B}, \textit{OPP $B'$} and \textit{OPP $A'$}.
 \begin{figure}[tb]
 \centering
-	\includegraphics[width=4 in]{fig1_flower.pdf}
+	\includegraphics[width=4 in]{figs/fig1_flower.pdf}
 	\caption{Schematic of an flower-like structure.}
 	\label{fig1_flower}
 \end{figure}
@@ -116,7 +116,7 @@ Fig.\ref{fig1_flower} shows a four-petal flower-like structure in GaAs-AlGaAs ma
 A flower-like based 4:1 TDM is depicted in Fig.\ref{fig2_combiner}. Here, four different input signals have been applied to the input ports of flower-like structure. All drop ports of flower-like structure are combined to make TDM output signal. The beam combiner gets four drop port signals of flower-like MRRs to achieve reconfigurable logic gates \cite{bloembergen1996nonlinear}, \cite{shen1984principles}. The \textit{OPP A} and \textit{OPP B} are selection legs by which optical signal of an input port is chosen to transmit on the TDM output port. 
 \begin{figure}
 \centering
-	\includegraphics[width=3.5 in]{fig2_combiner.pdf}
+	\includegraphics[width=3.5 in]{figs/fig2_combiner.pdf}
 	\caption{A 4:1 TDM based on flower-like structure}
 	\label{fig2_combiner}
 \end{figure}
@@ -211,7 +211,7 @@ To simulate flower-like structure all parameters such as effective waveguide cro
 First of all, we simulate a TDM, being shown in Fig.\ref{fig2_combiner}. There are four different optical signals at input ports of flower-like structure. The 1$^{st}$ input is binary string 11000000, the 2$^{nd}$ input is 00100000, the 3$^{rd}$ and the 4$^{th}$ inputs are 00001100 and 00000001. Simulation results are presented in Fig.\ref{fig3_muxfi}. It can be seen that output of TDM is the string consists all input signals. Important parameters of TDM have been represented in Table \ref{tab3}.
 \begin{figure}[tb]
 \centering
-\includegraphics[width=5 in]{fig3_muxfi.pdf}
+\includegraphics[width=5 in]{figs/fig3_muxfi.pdf}
 	\caption{Simulation result of optical comparator.}
 	\label{fig3_muxfi}
 \end{figure}
@@ -250,7 +250,7 @@ First of all, we simulate a TDM, being shown in Fig.\ref{fig2_combiner}. There a
 Comparison between two binary data is required to control or drive the physical variable on the basis of a reference value. The flower-like structure can compare two binary bites and generates one of the outputs \textit {A} =\textit {B}, \textit {A}$>$\textit {B} and \textit {A}$<$\textit {B}. To obtain a comparator circuit, the \textit{XNOR} and \textit{AND} gates would be used. The \textit{XNOR} gate is used in the cases in which the binary digits are equal and the \textit{AND} gate is used through the cases that a binary digitis is greater than or less than the other one. Just based on Tab. \ref{tab4}, the binary combinator can be achieved. The simulation results have been illustrated in Fig.\ref{fig4_comparator}.\\
 \begin{figure}[tb]
 \centering
-\includegraphics[width=5 in]{fig4_comparator.pdf}
+\includegraphics[width=5 in]{figs/fig4_comparator.pdf}
 	\caption{Simulation result of optical comparator.}
 	\label{fig4_comparator}
 \end{figure}
@@ -310,7 +310,7 @@ The flower-like structure can be also used to design optical half adder and half
 Fig.\ref{fig5_adder} presents the half adder simulation results. In this case, Sum=$A'B+AB'$($A\oplus B$) and Carry=\textit {A}.\textit {B}.
    \begin{figure}[tb]
 \centering
-\includegraphics[width=5 in]{fig5_adder.pdf}
+\includegraphics[width=5 in]{figs/fig5_adder.pdf}
 	\caption{Simulation result of optical half adder.}
 	\label{fig5_adder}
 \end{figure}
@@ -355,7 +355,7 @@ The authors declare no conflicts of interest.
 \appendix
 \section*{Appendix A}
 \label{Appendix A}
-The flower-like structure and its parameters are presented in Fig.\ref{fig1a_structure}.
+The flower-like structure and its parameters are presented in Fig.\ref{figs/fig1a_structure}.
    \begin{figure}[tb]
 \centering
 \includegraphics[width=4 in]{fig1a_structure.pdf}
@@ -575,7 +575,7 @@ The 1$^{st}$ input to the 1$^{st}$ drop port transfer function, $H_{1-1}$.\\
 There is only one path from the 1$^{st}$ input to the 1$^{st}$ drop port. This is shown in Fig. \ref{fig2a_ID11}.\\
   \begin{figure}[tb]
 \centering
-\includegraphics[width=3 in]{fig2a_ID11.pdf}
+\includegraphics[width=3 in]{figs/fig2a_ID11.pdf}
 	\caption{The only forward path from the 1$^{st}$ input port to the 1$^{st}$ drop port}
 	\label{fig2a_ID11}
 \end{figure} 
@@ -613,11 +613,11 @@ There two paths from the 1$^{st}$ input to the 4$^{th}$ drop port. These paths a
 \begin{figure}[h!]
   \centering
     \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{fig3a_141.pdf}
+    \includegraphics[width=\linewidth]{figs/fig3a_141.pdf}
     \caption{}
   \end{subfigure}
   \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{fig3a_142.pdf}
+    \includegraphics[width=\linewidth]{figs/fig3a_142.pdf}
     \caption{}
   \end{subfigure}
   \caption{two forward paths from the 1$^{st}$ input port to the 4$^{th}$ drop port}
@@ -673,19 +673,19 @@ There are four forward paths from the 1$^{st}$ input to the 3$^{rd}$ drop port. 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{fig4a_ID131.jpg}
+    \includegraphics[width=\linewidth]{figs/fig4a_ID131.jpg}
     \caption{}
   \end{subfigure}
   \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{fig4a_ID132.pdf}
+    \includegraphics[width=\linewidth]{figs/fig4a_ID132.pdf}
     \caption{}
   \end{subfigure}
   \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{fig4a_ID133.jpg}
+    \includegraphics[width=\linewidth]{figs/fig4a_ID133.jpg}
     \caption{}
   \end{subfigure}
   \begin{subfigure}[b]{0.4\linewidth}
-    \includegraphics[width=\linewidth]{fig4a_ID134.pdf}
+    \includegraphics[width=\linewidth]{figs/fig4a_ID134.pdf}
     \caption{}
   \end{subfigure}
   \caption{all four forward paths from the 1$^{st}$ input port to the 3$^{rd}$ drop port}
